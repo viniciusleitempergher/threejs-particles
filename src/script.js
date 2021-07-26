@@ -110,8 +110,8 @@ let mouseX = 0
 let mouseY = 0
 
 function animateParticles(e) {
-  mouseY = e.clientY
-  mouseX = e.clientX
+  mouseY = e.clientY * 0.5
+  mouseX = e.clientX * 0.5
 }
 
 /**
